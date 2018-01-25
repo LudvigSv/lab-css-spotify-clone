@@ -6,3 +6,189 @@ Green: #00B172
 White: #FFF
 
 */
+/* body{ */
+/* font-family:  */
+/* } */
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  font-size: 5em;
+}
+h3 {
+  font-size: 1.8em;
+}
+
+/* multi line selector */
+h1,
+h3 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar-image:hover {
+  animation: mover 0.3s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.nav {
+  height: 100px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+
+.nav-bar-image {
+  /* position: fixed; */
+  float: left;
+  padding-top: 20px;
+  width: 200px;
+  margin-left: 40px;
+}
+
+.nav-bar-ul {
+  float: right;
+  display: inline-block;
+  top: 60px;
+  padding-right: 30px;
+}
+
+.nav-bar-ul li {
+  float: left;
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 30px;
+  padding-top: 21px;
+  font-size: 22px;
+}
+
+.landing {
+  color: white;
+  /* position: relative; */
+  background: url("../images/landing.jpg");
+  background-size: cover;
+  height: 650px;
+  padding-top: 300px;
+}
+
+.whats-on {
+  font-size: 2.5em;
+  width: 0 50%;
+  border-bottom: 4px solid #00b172;
+  border-width: 0 50% 0 50%;
+}
+
+/* .section3 {
+  margin: 0 auto;
+  padding-top: 80px;
+} */
+
+.sound-container {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.sound-icon {
+  width: 180px;
+}
+
+h4 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #00b172;
+}
+
+.quality-container {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.quality-icon {
+  width: 180px;
+  padding: 10px;
+}
+
+.devices-container {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.devices-icon {
+  width: 180px;
+}
+
+.background-color-green {
+  width: 95%;
+  margin: 0 auto;
+  background-color: #00b172;
+}
+
+.clear {
+  clear: both;
+}
+
+h5 {
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+h6 {
+  font-size: 1.8em;
+}
+
+.icon-white {
+  position: relative;
+  /* bottom: 120px; */
+  /* top: 123px; */
+  /* right: 400px; */
+  width: 140px;
+  float: right;
+  bottom: 300px;
+  right: 570px;
+}
+
+.yeezy-text {
+  width: 33%;
+  padding-left: 70px;
+  padding-top: 20px;
+  color: white;
+}
+
+.yeezy-p {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.spotify-app {
+  position: relative;
+  float: right;
+  width: 29%;
+  right: -35px;
+  bottom: 535px;
+  /* clear: both; */
+}
+
+/* center icon absolute top and bottom value to center 50% */
